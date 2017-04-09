@@ -4,3 +4,27 @@
 #portfolio{
   padding-bottom: 3em;
 }
+.header-logo-text{
+  font-family: montserrat-bold, sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+/*Footer Styling*/
+.footer-social-list{
+  list-style-type:none;
+  margin: 0;
+}
+.footer-social-list li{
+  display:inline-block;
+}
+.footer-social-list li a {
+  color: rgba(255, 255, 255, 0.15);
+}
+.footer-social-list li a:hover, 
+.footer-social-list li a:focus {
+  color: #FFFFFF;
+}
+a.email-text-link{
+  color: #FFFFFF!important
+}
