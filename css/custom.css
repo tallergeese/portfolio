@@ -10,6 +10,11 @@
   color: white;
 }
 
+/*About Me Styling*/
+.intro-contact{
+  margin: 2em;
+}
+
 /*Footer Styling*/
 .footer-social-list{
   list-style-type:none;
