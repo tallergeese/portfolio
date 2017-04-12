@@ -139,6 +139,7 @@
 					<h3 class="animate-this">About Me</h3>
 	   			<p class="lead animate-this">Hello! My name is <span>Michael Duong</span>. I'm a board gamer, puzzle lover, problem-solver and a passionate front-end web developer.</p>	
 				</div>
+				<div class=""animate-this><img src="images/me.jpg" alt="me!"></div>
 				<div class="animate-this">After graduating from UC Berkeley in 2012 with a BA Philosophy, I've worked as a property manager, tutor, LSAT Logic Games question writer, tech support, and B2B salesman. Throughout it all, my brain always seemed to crave a more technical challenge. I found myself spending my spare time optimizing medieval subsistence farms in 
 					<a href="https://boardgamegeek.com/boardgame/31260/agricola" target="_blank">Agricola</a> or devising programmatic ways to automate chemical manufacturing in <a href="http://store.steampowered.com/app/92800/" target="_blank">SpaceChem</a>, and I eventually took the hint. After working through online courses like Codecademy and FreeCodeCamp, I took the leap by quitting my job and enrolling in the LearningFuze 12-Week Full Immersion Accelerated Web Development Course, where I found exactly the kind of challenge that I craved.</div>  
 					<div class="animate-this intro-contact" style="margin:2em"><strong>I'm excited to see what kinds of new opportunities and challenges await me now, and I'd love to <a href="#contact">hear from you!</a></strong></div> 
@@ -282,7 +283,7 @@
 							<h4>Where in the World is Carmen Sandiego?</h4>
 							<p>A trivia game in which players are sent to destinations across the globe on an actual map trying to track down Carmen Sandiego. Players are rewarded for correctly answering trivia questions with clues that narrow down Carmen's final destination. Eventually, players are asked to pinpoint a specific location on the map to see if they have successfully found Carmen Sandiego. Personally responsible for Google Maps API/Geocoding integration, AJAX calls to the RESTful Countries API, and the trivia game and clue logic.<a href="http://mduong.com/carmen" target="_blank">Try It!</a> | <a href="https://github.com/jayosas75/C1.17_hackathon" target="_blank">Github</a></p>
 						</div>	               
-	        		</div> <!-- end folio-item -->
+	        		</div>  end folio-item 
 
    			</div> <!-- end folio-wrap -->
    		</div> <!-- end twelve -->
@@ -458,6 +459,7 @@
    <script src="js/custom.js"></script>
 
 	 <script>function navigateToNewPage(url){
+		  event.stopPropagation()
 			window.open(url, "_blank")
 			}
 		</script>	
