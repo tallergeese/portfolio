@@ -24,11 +24,11 @@
   display:inline-block;
 }
 .footer-social-list li a {
-  color: rgba(255, 255, 255, 0.15);
+    color: #FFFFFF;
 }
 .footer-social-list li a:hover, 
 .footer-social-list li a:focus {
-  color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.15);
 }
 a.email-text-link{
   color: #FFFFFF!important
